@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Media\favicon_io\favicon-32x32.png" type="image/x-icon">
     <title>My Website</title>
-  <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
 
@@ -13,41 +14,49 @@
         integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
         crossorigin="anonymous"></script>
 
+    <!-- Animate.css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
     <!-- Hover.css (for additional effects) -->
-<link rel="stylesheet" href="style.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" />
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
 </head>
 
 <body>
     <header>
-        
+
         <nav id="navbar-example" class="navbar bg-info px-3">
             <a class="navbar-brand fw-bold  text-primary hvr-buzz animate__animated animate__pulse animate__infinite animate__slower"
                 href="index.html">Abid Arshad Alam</a>
             <ul class="nav nav-pills">
 
                 <li class="nav-items">
-                    <a class="nav-link text-light fw-bold hvr-underline-from-center animate__animated animate__fadeInleft hover-effect-1 "
+                    <a class="nav-link text-light fw-bold hvr-underline-from-center animate__animated animate__fadeInleft"
                         href="Hobbies.html">My Hobbies</a>
                 </li>
 
                 <li class="nav-items">
-                    <a class="nav-link text-light fw-bold hvr-underline-from-center animate__animated animate__fadeInleft hover-effect-1 "
+                    <a class="nav-link text-light fw-bold hvr-underline-from-center animate__animated animate__fadeInleft"
                         href="gallery.html">My Gallery</a>
                 </li>
 
                 <li class="nav-items">
-                    <a class="nav-link text-light fw-bold hvr-underline-from-center animate__animated animate__fadeInleft hover-effect-1 "
+                    <a class="nav-link text-light fw-bold hvr-underline-from-center animate__animated animate__fadeInright"
                         href="My_Projects.html">My Projects</a>
                 </li>
 
                 <li class="nav-items">
-                    <a class="nav-link text-light fw-bold hvr-underline-from-center animate__animated animate__fadeInleft hover-effect-1 "
-                        href="My_Contact.html">My Contact</a>
+                    <a class="nav-link text-light fw-bold hvr-underline-from-center animate__animated animate__fadeInleft"
+                        href="My_Certificate.html">My Certificate</a>
                 </li>
 
+                <li class="nav-items">
+                    <a class="nav-link text-light fw-bold hvr-underline-from-center animate__animated animate__fadeInright"
+                        href="My_Contact.html">My Contact</a>
+                </li>
 
             </ul>
         </nav>
@@ -56,7 +65,9 @@
 
 
 
-  <section class="hero">
+
+
+        <section class="hero">
 
             <!-- Floating shapes -->
 
@@ -72,98 +83,163 @@
 
                 <h1>Hi, I'm <span>Abid Arshad Alam</span></h1>
 
-                <p>As a creative coder and passionate problem solver, I specialize in developing beautiful, user-friendly websites and applications that drive meaningful impact. My ambition is to become a software engineer, leveraging my skills to contribute to Bangladesh's growth and establish it as a leader in the global coding community.</p>
+                <p>As a creative coder and passionate problem solver, I specialize in developing beautiful,
+                    user-friendly websites and applications that drive meaningful impact. My ambition is to
+                    become a
+                    software engineer, leveraging my skills to contribute to Bangladesh's growth and establish
+                    it as a
+                    leader in the global coding community.</p>
 
-                <a href="work.html" class="cta-button">View My Work</a>
+                <a href="#projects" class="cta-button">View My Work</a>
 
             </div>
-  <script src="script.js"></script>
+
         </section>
 
 
-        
+
         <section class="container gallery mt-5">
-            <h3 class="text-center fw-bold">Gallery</h3>
-           <div id="carouselExampleCaptions" class="carousel slide">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="Media/image copy 6.png" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="Media/image copy 6.png" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="Media/image copy 6.png" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
-      </div>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</dMedi
-        </section>
-        <section class="container Hobbies mt-5">
-            <h3 class="text-center fw-bold">My Hobbies</h3>
-            <div class="row">
-                <div class="col-4">
-                    <div class="card" style="width: 18rem;">
-                        <img src="Media/image.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Singing</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card’s content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <h3 class="text-center fw-bold">My Picture</h3>
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="Media/WhatsApp Image 2025-08-13 at 21.21.47_6c875fc7.jpg" class="d-block w-100 h-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <!-- <h5> Picture 1</h5> -->
+                            <p>This picture was capture before my half Yearly Exam Result.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Media/WhatsApp Image 2025-08-13 at 21.21.48_9b543764.jpg" class="d-block w-100 h-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <!-- <h5>Picture 2</h5> -->
+                            <p>This picture was capture after my half Yearly Exam Result.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Media/WhatsApp Image 2025-08-13 at 21.21.49_04d50cbb.jpg"  class="d-block w-100 h-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <!-- <h5>Picture 3</h5> -->
+                            <p>This picture was capture before going to Mosque during Eid-Ul-Fitr at early morning.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
-                    <div class="card" style="width: 18rem;">
-                        <img src="Media/image copy 3.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Eating Foods</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card’s content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="card" style="width: 18rem;">
-                        <img src="Media/image copy 2.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Playing Games</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card’s content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span> -->
+
+                <button class="prev">&lt;</button>
+                <button class="next">&gt;</button>
+
+                </button>
             </div>
 
 
-        </section>
-        <section class="container Projects mt-5"></section>
+
+
+
+            <section class="container Hobbies mt-5">
+                <h3 class="text-center fw-bold">My Hobbies</h3>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="Media/image.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Singing</h5>
+                                <p class="card-text">Singing as a hobby is a fun and creative way to express
+                                    yourself.
+                                    It's great for stress relief and improving your breathing. You can sing alone, join a choir and try to make own with friends. It's a joyful activity that anyone can enjoy.
+                                </p>
+                                <a href="Hobbies.html" class="btn btn-primary">Go</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="Media/image copy 3.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Eating Foods</h5>
+                                <p class="card-text">"Foodie" is a term for people who love food. They enjoy trying new dishes, cooking, and learning about different cuisines. It's a hobby focused on the experience and culture of eating.I like to eat a lot. My favourite food in "Kacchi".
+                                   </p>
+                                <a href="Hobbies.html" class="btn btn-primary">Go</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="Media/image copy 2.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Playing Games</h5>
+                                <p class="card-text">Playing games is a popular hobby enjoyed by many, offering a fun and engaging way to pass the time. It help to improve problem-solving skills, hand-eye coordination,  and  social interaction.
+                                 </p>
+                                <a href="Hobbies.html" class="btn btn-primary">Go</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </section>
+            <section id="projects" class="container Projects mt-5">
+                    <h3 class="text-center fw-bold">My Best Projects</h3>
+                <section class="container Hobbies mt-5">
+                  <div class="row">
+                        <div class="col-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="Media/image copy 29.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Weather app</h5>
+                                    <br>
+                                    <p class="card-text">A weather app is a mobile or web application designed to provide users with real-time weather information and forecasts for various locations. These apps typically offer features like current temperature, wind speed, humidity, precipitation, and detailed forecasts for the next few hours or days.
+                                      <br> <br> <br>
+                                    <a href="https://gallery.appinventor.mit.edu/?galleryid=3fe1942b-9fb5-422a-b995-865e654f7170" target="_blank"
+                                        class="btn btn-primary">Go </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="Media/image copy 30.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Ping Pong Game</h5>
+
+                                    <p class="card-text">Ping Pong is a two-dimensional, two-player sports game that simulates table tennis. Players control paddles on opposite sides of the screen, moving them up and down to hit a ball back and forth. The objective is to score points by making the ball pass the opponent's paddle and reach the edge of the screen. It was one of the first commercially successful video games.</p>
+
+
+                                    <a href="https://scratch.mit.edu/projects/1067804035" class="btn btn-primary">Go </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="Media/image copy 20.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Zombieland</h5>
+                                    <p class="card-text">Zombieland games are a mix of survival, action, and often humor, inspired by the Zombieland movie franchise. They feature various gameplay styles like twin-stick shooters, VR experiences,horror theme and base-building elements.</p>
+                                    <a href="https://scratch.mit.edu/projects/1064574134" class="btn btn-primary">Go
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </section>
+            </section>
 
     </main>
     <footer class="container-fluid bg-info text-center py-3">
